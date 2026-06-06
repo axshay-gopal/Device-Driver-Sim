@@ -21,6 +21,8 @@ __used __section("__versions") = {
 	{ 0xd272d446, "__stack_chk_fail" },
 	{ 0x546c19d9, "validate_usercopy_range" },
 	{ 0xa61fd7aa, "__check_object_size" },
+	{ 0x092a35a2, "_copy_from_user" },
+	{ 0x90a48d82, "__ubsan_handle_out_of_bounds" },
 	{ 0x092a35a2, "_copy_to_user" },
 	{ 0xf64ac983, "__copy_overflow" },
 	{ 0xc02ea1a6, "__register_chrdev" },
@@ -44,6 +46,8 @@ __used __section("__version_ext_crcs") = {
 	0x546c19d9,
 	0xa61fd7aa,
 	0x092a35a2,
+	0x90a48d82,
+	0x092a35a2,
 	0xf64ac983,
 	0xc02ea1a6,
 	0x98c62715,
@@ -64,6 +68,8 @@ __used __section("__version_ext_names") =
 	"__stack_chk_fail\0"
 	"validate_usercopy_range\0"
 	"__check_object_size\0"
+	"_copy_from_user\0"
+	"__ubsan_handle_out_of_bounds\0"
 	"_copy_to_user\0"
 	"__copy_overflow\0"
 	"__register_chrdev\0"
@@ -84,4 +90,4 @@ __used __section("__version_ext_names") =
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "CADC1F422AD9559BBCA3CE1");
+MODULE_INFO(srcversion, "B325EF31012E0A782201279");
