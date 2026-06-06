@@ -18,46 +18,70 @@ __section(".gnu.linkonce.this_module") = {
 
 static const struct modversion_info ____versions[]
 __used __section("__versions") = {
+	{ 0xd272d446, "__stack_chk_fail" },
+	{ 0x546c19d9, "validate_usercopy_range" },
+	{ 0xa61fd7aa, "__check_object_size" },
+	{ 0x092a35a2, "_copy_to_user" },
+	{ 0xf64ac983, "__copy_overflow" },
+	{ 0xc02ea1a6, "__register_chrdev" },
+	{ 0x98c62715, "class_create" },
+	{ 0x52b15b3b, "__unregister_chrdev" },
 	{ 0xbcdfccb1, "device_create" },
 	{ 0xe78e165c, "class_destroy" },
 	{ 0x54cd0fae, "device_destroy" },
 	{ 0xd272d446, "__fentry__" },
 	{ 0xe8213e80, "_printk" },
 	{ 0xd272d446, "__x86_return_thunk" },
-	{ 0xc02ea1a6, "__register_chrdev" },
-	{ 0x98c62715, "class_create" },
-	{ 0x52b15b3b, "__unregister_chrdev" },
+	{ 0xbd03ed67, "__ref_stack_chk_guard" },
+	{ 0x224a53e7, "get_random_bytes" },
+	{ 0x40a621c5, "snprintf" },
 	{ 0x4749ded2, "module_layout" },
 };
 
 static const u32 ____version_ext_crcs[]
 __used __section("__version_ext_crcs") = {
+	0xd272d446,
+	0x546c19d9,
+	0xa61fd7aa,
+	0x092a35a2,
+	0xf64ac983,
+	0xc02ea1a6,
+	0x98c62715,
+	0x52b15b3b,
 	0xbcdfccb1,
 	0xe78e165c,
 	0x54cd0fae,
 	0xd272d446,
 	0xe8213e80,
 	0xd272d446,
-	0xc02ea1a6,
-	0x98c62715,
-	0x52b15b3b,
+	0xbd03ed67,
+	0x224a53e7,
+	0x40a621c5,
 	0x4749ded2,
 };
 static const char ____version_ext_names[]
 __used __section("__version_ext_names") =
+	"__stack_chk_fail\0"
+	"validate_usercopy_range\0"
+	"__check_object_size\0"
+	"_copy_to_user\0"
+	"__copy_overflow\0"
+	"__register_chrdev\0"
+	"class_create\0"
+	"__unregister_chrdev\0"
 	"device_create\0"
 	"class_destroy\0"
 	"device_destroy\0"
 	"__fentry__\0"
 	"_printk\0"
 	"__x86_return_thunk\0"
-	"__register_chrdev\0"
-	"class_create\0"
-	"__unregister_chrdev\0"
+	"__ref_stack_chk_guard\0"
+	"get_random_bytes\0"
+	"snprintf\0"
 	"module_layout\0"
 ;
 
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "0076C0F763DE233AA5547D6");
+MODULE_INFO(srcversion, "CADC1F422AD9559BBCA3CE1");
